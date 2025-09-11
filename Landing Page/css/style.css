@@ -96,6 +96,13 @@ p {
   margin-bottom: 50px;
 }
 
+
+.swiper {
+    width: 50vw;
+    height: fit-content;
+  }
+
+
 .vivir-distinto {
   height: 100vh;
   background: url("../img/bg-vivir-distinto.jpg") no-repeat center center;
