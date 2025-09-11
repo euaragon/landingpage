@@ -1,27 +1,26 @@
 body {
-    font-family: "Archivo", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 h1 {
-    font-family: "warbler-banner", sans-serif;
-    font-weight: normal;
-    font-size: 3.2em;
-    z-index: 9999999;
+  font-family: "warbler-banner", sans-serif;
+  font-weight: normal;
+  font-size: 3.2em;
+  z-index: 9999999;
 }
 
 p {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 /* #hero {
@@ -34,133 +33,131 @@ p {
 } */
 
 #hero {
-    position: relative;
-    min-height: 130vh; /* más alto que la pantalla */
-    overflow: hidden;
-  }
-  
-  #hero .parallax-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 150%; /* más alto para cubrir el scroll */
-    background: url("../img/bg-hero.jpg") no-repeat center top;
-    background-size: cover;
-    background-attachment: fixed; /* efecto parallax */
-    z-index: -1;
-  }
+  position: relative;
+  min-height: 130vh; /* más alto que la pantalla */
+  overflow: hidden;
+}
+
+#hero .parallax-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%; /* más alto para cubrir el scroll */
+  background: url("../img/bg-hero.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed; /* efecto parallax */
+  z-index: -1;
+}
 
 .hero-content {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    color: #fff;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
 }
 
 .verde {
-    color: #347246 !important;
+  color: #347246 !important;
 }
 
 .bg-verde {
-    background-color: #347246 !important;
+  background-color: #347246 !important;
 }
 
 .btn-wa {
-    position: fixed;
-    z-index: 99999999999;
-    bottom: 30px;
-    right: 30px;
+  position: fixed;
+  z-index: 99999999999;
+  bottom: 30px;
+  right: 30px;
 }
 
 .separador {
-    position: relative;
-    z-index: 9999999;
-    top: -7vw;
-    /* Ajusta este valor para controlar la posición vertical del separador. Un valor en 'vw' asegura que se mueva en relación al ancho del viewport */
+  position: relative;
+  z-index: 9999999;
+  top: -7vw;
+  /* Ajusta este valor para controlar la posición vertical del separador. Un valor en 'vw' asegura que se mueva en relación al ancho del viewport */
 }
 
 .contactenos {
-    letter-spacing: 8px;
-    font-size: 14pt;
-    background: #347246 !important;
-    border-radius: 15px;
-    padding: 10px 20px;
+  letter-spacing: 8px;
+  font-size: 14pt;
+  background: #347246 !important;
+  border-radius: 15px;
+  padding: 10px 20px;
 }
 
 .numeros {
-    font-family: "warbler-banner", sans-serif;
-    font-size: 5em;
-    margin-bottom: 20px;
-
+  font-family: "warbler-banner", sans-serif;
+  font-size: 5em;
+  margin-bottom: 20px;
 }
 
 .vivir-distinto {
-    height: 100vh;
-    background: url('../img/bg-vivir-distinto.jpg') no-repeat center center;
-    background-size: cover;
+  height: 100vh;
+  background: url("../img/bg-vivir-distinto.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; /* parallax simple */
+  min-height: 100vh; /* o lo que necesites */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
 
 .contact-form {
-    max-width: 900px;
-    margin: auto;
-    padding: 30px;
-    border: 1px solid #000;
-    border-radius: 15px;
-    background: #fff;
-    text-align: center;
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  background: #fff;
+  text-align: center;
 }
 
-
-
 .contact-form form {
-    text-align: left;
+  text-align: left;
 }
 
 .contact-form label {
-    display: block;
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: #000;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #000;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
-    padding: 8px 10px;
-    margin-bottom: 20px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    outline: none;
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
 }
 
 .contact-form textarea {
-    resize: none;
+  resize: none;
 }
 
 .contact-form button {
-    display: block;
-    margin: 20px auto 0 auto;
-    background: #226633;
-    color: #fff;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 10px;
-    font-size: 14px;
-    cursor: pointer;
+  display: block;
+  margin: 20px auto 0 auto;
+  background: #226633;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 .contact-form button:hover {
-    background: #194d27;
+  background: #194d27;
 }
 
-
-
 .bg-footer {
-    background: url('../img/bg-footer.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url("../img/bg-footer.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
