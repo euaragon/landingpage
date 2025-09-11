@@ -58,11 +58,11 @@ p {
 }
 
 .verde {
-  color: #347246 !important;
+  color: #22492D !important;
 }
 
 .bg-verde {
-  background-color: #347246 !important;
+  background-color: #22492D !important;
 }
 
 .btn-wa {
@@ -79,8 +79,11 @@ p {
   /* Ajusta este valor para controlar la posición vertical del separador. Un valor en 'vw' asegura que se mueva en relación al ancho del viewport */
 }
 
-.contactenos {
+.letter-spacing {
   letter-spacing: 8px;
+}
+
+.contactenos {
   font-size: 14pt;
   background: #347246 !important;
   border-radius: 15px;
@@ -89,8 +92,8 @@ p {
 
 .numeros {
   font-family: "warbler-banner", sans-serif;
-  font-size: 5em;
-  margin-bottom: 20px;
+  font-size: 10em;
+  margin-bottom: 50px;
 }
 
 .vivir-distinto {
