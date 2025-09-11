@@ -35,25 +35,21 @@ p {
 
 #hero {
     position: relative;
-    height: 100vh;
+    min-height: 130vh; /* más alto que la pantalla */
     overflow: hidden;
-}
-
-.parallax-bg {
-    background: url('../img/bg-hero.jpg');
-    background-repeat: no-repeat;
-    background-position: center 30%;
-    background-size: cover;
+  }
+  
+  #hero .parallax-bg {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 120%;
-    /* extra para cubrir el movimiento */
+    height: 150%; /* más alto para cubrir el scroll */
+    background: url("../img/bg-hero.jpg") no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed; /* efecto parallax */
     z-index: -1;
-    transform: translateY(0);
-    will-change: transform;
-}
+  }
 
 .hero-content {
     position: relative;
@@ -85,7 +81,8 @@ p {
 }
 
 .contactenos {
-    font-kerning: 3px;
+    letter-spacing: 8px;
+    font-size: 14pt;
     background: #347246 !important;
     border-radius: 15px;
     padding: 10px 20px;
